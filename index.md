@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Git Developer Pages
+title: Fahrstuhl-Manufaktur
 navbar: false
 ---
 
