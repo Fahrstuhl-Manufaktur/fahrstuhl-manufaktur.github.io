@@ -3,7 +3,6 @@ tagline: All about driving chairs!!!.
 location: Munich, DE
 twitter: https://twitter.com/fahrstuhl23
 github: https://github.com/fahrstuhl-manufaktur
-markdown: redcarpet
 highlighter: null
 permalink: :year/:month/:day/:title/
 sass:
