@@ -1,3 +1,8 @@
+title: Fahrstuhl Manufaktur
+description: Progress of a driving chair build
+url: https://fahrstuhl.wtf
+twitter:
+  username: fahrstuhl23
 name: Fahrstuhl
 tagline: All about driving chairs!!!.
 location: Munich, DE
@@ -8,3 +13,10 @@ permalink: :year/:month/:day/:title/
 sass:
   sass_dir: _sass
   style: compressed
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jemoji
+  - jekyll-mentions
+
