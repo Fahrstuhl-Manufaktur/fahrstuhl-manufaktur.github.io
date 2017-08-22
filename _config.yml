@@ -9,7 +9,7 @@ github_username:  fahrstuhl-manufaktur
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-time-machine
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
