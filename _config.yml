@@ -1,26 +1,11 @@
-title: Fahrstuhl-Manufaktur
-email: fahrstuhl23@posteo.de
-description: > # this means to ignore newlines until "baseurl:"
-  All about driving chairs !
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://fahrstuhl.wtf" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: fahrstuhl23
-github_username:  fahrstuhl-manufaktur
-
-# Build settings
-markdown: kramdown
-theme: jekyll-theme-minimal
-plugins:
-  - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+name: Fahrstuhl
+tagline: All about driving chairs!!!.
+location: Munich, DE
+twitter: https://twitter.com/fahrstuhl23
+github: https://github.com/fahrstuhl-manufaktur
+markdown: redcarpet
+highlighter: null
+permalink: :year/:month/:day/:title/
+sass:
+  sass_dir: _sass
+  style: compressed

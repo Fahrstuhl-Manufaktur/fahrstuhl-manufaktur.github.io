@@ -1,9 +1,30 @@
 ---
 layout: default
-title: Fahrstuhl-Manufaktur
-navbar: false
+title: Fahrstuhl Manufaktur - Archive 
 ---
 
-# {{ page.title }}
+<div id="home">
+  <h1>Archive</h1>
 
-Content? Soon
+  <blockquote>Posts about the progress of a driving chair build, or anything related</blockquote>
+
+  <ul class="posts index-menu">
+    {% for post in site.posts %}
+    <li>
+      <a class="post-index-link" href="{{ post.url }}">
+        <h3 class="post-title">{{ post.title }} <i class="icon-external-link"></i></h3>
+        <span class="post-subtitle">{{ post.subtitle }}</span>
+      </a>
+      <small>{{ post.date | date: "%-d %B, %Y" }}</small>
+
+      {% if post.tags.size > 0 %}
+      <span>
+      {% for tag in post.tags %}
+        <span class="tag-label">{{ tag }}</span>
+      {% endfor %}
+      </span>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</div>
